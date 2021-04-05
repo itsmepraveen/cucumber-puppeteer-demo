@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-cucumber-js-in-google;verify-result-for-google-search",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify result for google search",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The browser is open",
+            "match": {
+              "location": "features/support/googleSearch.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3697000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "open the Google page",
+            "match": {
+              "location": "features/support/googleSearch.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "search for cucumber js",
+            "match": {
+              "location": "features/support/googleSearch.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-cucumber-js-in-google",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search cucumber js in google",
+    "tags": [],
+    "uri": "features/search.feature"
+  }
+]
